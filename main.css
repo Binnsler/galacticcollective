@@ -116,4 +116,9 @@
 		width: 100%;
 		padding: 20px 0;
 	}
+	.gallery img{
+		display: block;
+		margin: auto;
+		padding: 10px 0;
+	}
 }
