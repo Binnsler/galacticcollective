@@ -1,0 +1,119 @@
+*{
+	box-sizing: border-box;
+}
+/*   HEADER/NAVBAR   */
+
+.header{
+	overflow: hidden;
+}
+
+.logo{
+	float: left;
+	position: relative;
+}
+
+.nav-bar{
+	float: right;
+	position: relative;
+	padding-right: 5%;
+}
+
+.nav-item{
+	display: inline-block;
+}
+
+.nav-item a{
+	text-decoration: none;
+	color: #707070;
+	padding: 0 10px;
+}
+
+.nav-item.subscribe{
+	background-color: #1AB193;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.nav-item.subscribe a{
+	color: white;
+}
+
+/*   MAIN CONTENT   */
+
+.main-content{
+	position: relative;
+	padding-top: 5vh;
+}
+
+.splash-content{
+	display: inline-block;
+	width: 48%;
+	vertical-align: top;
+}
+
+.splash-content h1{
+	color: #1AB193;
+	padding-left: 5%;
+}
+
+.splash-content h2, p{
+	color: #999;
+	padding-left: 5%;
+}
+
+.splash-image{
+	display: inline-block;
+	width: 48%;
+	text-align: center;
+	vertical-align: top;
+}
+
+.jumbotron img{
+	width: 60%;
+}
+
+.button-subscribe{
+	padding: 3% 0 0 40%;
+}
+
+.button{
+	border: 1px solid #1AB193;
+	text-decoration: none;
+	color: #1AB193;
+	padding: 7px;
+	font-size: 20px;
+	border-radius: 3px;
+}
+
+.gallery{
+	padding-top: 1vh;
+}
+
+/*   MEDIA RULE AT 960PX   */
+
+@media screen and (max-width: 960px){
+	.header, .main-content{
+		padding: 0 15px;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 900px){
+
+	.header{
+		text-align: center;
+	}
+	.logo, .nav-bar, .nav-item{
+		display: block;
+		margin: auto;
+		float: none;
+		width: 100%;
+	}
+	.splash-content, .splash-image{
+		display: block;
+		margin: auto;
+		float: none;
+		width: 100%;
+		padding: 20px 0;
+	}
+}
