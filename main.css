@@ -117,8 +117,7 @@
 		padding: 20px 0;
 	}
 	.gallery img{
-		display: block;
+		display: inline;
 		margin: auto;
-		padding: 10px 0;
 	}
 }
